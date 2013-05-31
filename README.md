@@ -4,7 +4,7 @@ A simple alternative to ActivityStreams for representing updates to a site inspi
 
 Original post: http://sandeep.shetty.in/2013/05/recentchanges-alternative-to.html
 
-* Every resource (URL) has a RecentChanges endpoint.
+* Every resource (URL) SHOULD have a RecentChanges endpoint.
 
 ```http
 GET /some-resource HTTP/1.1
@@ -19,8 +19,8 @@ Link: <http://sandeep.shetty.in/recentchanges-endpoint?res=/some-resource>; rel=
 <link href="http://sandeep.shetty.in/recentchanges-endpoint?res=/some-resource" rel="http://example.com/TDB" />
 ...
 ```
-* The RecentChanges endpoint at each level of the (URL) hierarchy aggregates all RecentChanges under it.
-  * The RecentChanges endpoint of the site aggregates site-wide RecentChanges.
+* The RecentChanges endpoint at each level of the (URL) hierarchy SHOULD aggregate all RecentChanges under it.
+  * The RecentChanges endpoint of the site MUST aggregates site-wide RecentChanges.
 
 ```http
 GET / HTTP/1.1
