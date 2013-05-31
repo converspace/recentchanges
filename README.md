@@ -5,8 +5,37 @@ A simple alternative to ActivityStreams for representing updates to a site inspi
 Original post: http://sandeep.shetty.in/2013/05/recentchanges-alternative-to.html
 
 * Every resource (URL) has a RecentChanges endpoint.
+
+```http
+GET /some-resource HTTP/1.1
+Host: sandeep.shetty.in
+```
+```http
+HTTP/1.1 200 OK
+Link: <http://sandeep.shetty.in/recentchanges-endpoint?res=/some-resource>; rel="http://example.com/TDB"
+
+<html>
+...
+<link href="http://sandeep.shetty.in/recentchanges-endpoint?res=/some-resource" rel="http://example.com/TDB" />
+...
+```
 * The RecentChanges endpoint at each level of the (URL) hierarchy aggregates all RecentChanges under it.
   * The RecentChanges endpoint of the site aggregates site-wide RecentChanges.
+
+```http
+GET / HTTP/1.1
+Host: sandeep.shetty.in
+```
+```http
+HTTP/1.1 200 OK
+Link: <http://sandeep.shetty.in/recentchanges-endpoint>; rel="http://example.com/TDB"
+
+<html>
+...
+<link href="http://sandeep.shetty.in/recentchanges-endpoint" rel="http://example.com/TDB" />
+...
+```
+
 * RecentChanges only requires/uses 4 verbs: Post, Respond, Update, Delete. (open to renaming these but the idea is that 4 verbs are enough)
 * Examples:
  * New Post: <pre>[Sandeep Shetty](http://sandeep.shetty.in/) posted [Foobar](http://example.com/foobar)</pre>
