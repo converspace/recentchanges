@@ -1,5 +1,4 @@
-RecentChanges
-=============
+# RecentChanges
 
 A simple alternative to ActivityStreams for representing updates to a site inspired by wiki style RecentChanges.
 
@@ -14,3 +13,8 @@ Original post: http://sandeep.shetty.in/2013/05/recentchanges-alternative-to.htm
   * Sandeep Shetty updated Foobar. (edited an existing post)
   * AnonymousOnPurpose responded to Foobar. (commented on a post - could even be a response to a specific comment)
   * Sandeep Shetty deleted Foobar. (deleted a post)
+
+### References
+* Mandaotry link to xkcd: http://xkcd.com/927/
+* http://c2.com/cgi/wiki?RecentChanges
+* http://c2.com/cgi/wiki?RecentChangesDiscussion
