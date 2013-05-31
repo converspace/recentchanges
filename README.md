@@ -20,7 +20,7 @@ Link: <http://sandeep.shetty.in/recentchanges-endpoint?res=/some-resource>; rel=
 ...
 ```
 * The RecentChanges endpoint at each level of the (URL) hierarchy SHOULD aggregate all RecentChanges under it.
-  * The RecentChanges endpoint of the site MUST aggregates site-wide RecentChanges.
+* The RecentChanges endpoint of the site MUST aggregates site-wide RecentChanges.
 
 ```http
 GET / HTTP/1.1
