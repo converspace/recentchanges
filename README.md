@@ -35,9 +35,9 @@ Link: <http://sandeep.shetty.in/recentchanges-endpoint>; rel="http://example.com
 <link href="http://sandeep.shetty.in/recentchanges-endpoint" rel="http://example.com/TDB" />
 ...
 ```
-
+* The RecentChanges endpoint could return HTML (marked up with microformats) or JSON.
 * RecentChanges only requires/uses 4 verbs: Post, Update, Respond, Delete (PURD). (open to renaming these but the idea is that 4 verbs are enough)
-* Examples:
+* Use-cases:
  * New Post: <pre>[Sandeep Shetty](http://sandeep.shetty.in/) posted [Foobar](http://example.com/foobar)</pre>
  * Edit an existing post: 
 <pre>[Sandeep Shetty](http://sandeep.shetty.in/) updated [Foobar](http://example.com/foobar) with http://example.com/diff/v1-vs-v2 </pre>
@@ -48,7 +48,8 @@ Link: <http://sandeep.shetty.in/recentchanges-endpoint>; rel="http://example.com
 
 
 ## TODO
-* JSON format that is returned by RecentChanges endpoint to represent changes.  
+* microformats for marking up the RecentChanges.
+* JSON format for RecentChanges.
 
 
 ## References
