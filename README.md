@@ -11,8 +11,9 @@ Original post: http://sandeep.shetty.in/2013/05/recentchanges-alternative-to.htm
 * Examples:
   * Sandeep Shetty posted Foobar. (new post)
   * Sandeep Shetty updated Foobar. (edited an existing post)
-  * AnonymousOnPurpose responded to Foobar. (commented on a post - could even be a response to a specific comment)
+  * AnonymousOnPurpose responded to Foobar. (commented on a post, could even be a response to a specific comment, `likes` are just a [canned response](http://sandeep.shetty.in/2012/10/facebooks-like-is-just-canned-response.html) that could be represented by emoji?)
   * Sandeep Shetty deleted Foobar. (deleted a post)
+
 
 ### References
 * Mandatory link to xkcd: http://xkcd.com/927/
