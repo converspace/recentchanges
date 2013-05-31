@@ -1,7 +1,7 @@
 RecentChanges
 =============
 
-An alternative to ActivityStreams for representing updates to a site inspired by wiki style RecentChanges.
+A simple alternative to ActivityStreams for representing updates to a site inspired by wiki style RecentChanges.
 
 Original post: http://sandeep.shetty.in/2013/05/recentchanges-alternative-to.html
 
