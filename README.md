@@ -48,8 +48,8 @@ Link: <http://sandeep.shetty.in/recentchanges-endpoint>; rel="http://example.com
 
 
 ## TODO
-* microformats for marking up the RecentChanges.
-* JSON format for RecentChanges.
+* microformats for marking up RecentChanges.
+* JSON format for RecentChanges (could just go with the microformats and skip this - DRY)
 
 
 ## References
