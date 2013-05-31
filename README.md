@@ -47,7 +47,11 @@ Link: <http://sandeep.shetty.in/recentchanges-endpoint>; rel="http://example.com
  * Delete post: <pre>[Sandeep Shetty](http://sandeep.shetty.in/) deleted [Foobar](http://example.com/foobar)</pre>
 
 
-### References
+## TODO
+* JSON format that is returned by RecentChanges endpoint to represent changes.  
+
+
+## References
 * Mandatory link to xkcd: http://xkcd.com/927/
 * http://c2.com/cgi/wiki?RecentChanges
 * http://c2.com/cgi/wiki?RecentChangesDiscussion
