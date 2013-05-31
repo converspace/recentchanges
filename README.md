@@ -2,7 +2,6 @@
 
 A simple alternative to ActivityStreams for representing updates to a site inspired by wiki style RecentChanges.
 
-Original post: http://sandeep.shetty.in/2013/05/recentchanges-alternative-to.html
 
 * Every resource (URL) SHOULD have a RecentChanges endpoint.
 
@@ -55,5 +54,6 @@ Link: <http://sandeep.shetty.in/recentchanges-endpoint>; rel="http://example.com
 
 ## References
 * Mandatory link to xkcd: http://xkcd.com/927/
+* Original post: http://sandeep.shetty.in/2013/05/recentchanges-alternative-to.html
 * http://c2.com/cgi/wiki?RecentChanges
 * http://c2.com/cgi/wiki?RecentChangesDiscussion
