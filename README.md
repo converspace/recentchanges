@@ -36,7 +36,7 @@ Link: <http://sandeep.shetty.in/recentchanges-endpoint>; rel="http://example.com
 ...
 ```
 * The RecentChanges endpoint could return HTML (marked up with microformats) or JSON.
-* RecentChanges only requires/uses 4 verbs: Post, Update, Respond, Delete (PURD). (open to renaming these but the idea is that 4 verbs are enough)
+* RecentChanges only requires/uses 4 verbs: Post, Update, Respond, Delete (PURD). (open to renaming these but **the key idea is that we only need a limited number of verbs**: 4 based on use cases below)
 * Use-cases:
  * New Post: <pre>[Sandeep Shetty](http://sandeep.shetty.in/) posted [Foobar](http://example.com/foobar)</pre>
  * Edit an existing post: 
