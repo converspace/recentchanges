@@ -8,7 +8,7 @@ Original post: http://sandeep.shetty.in/2013/05/recentchanges-alternative-to.htm
 * Every resource (URL) has a RecentChanges endpoint.
 * The RecentChanges endpoint at each level of the (URL) hierarchy aggregates all RecentChanges under it.
   * The RecentChanges endpoint of the site aggregates site-wide RecentChanges.
-* RecentChanges only requires/uses 4 verbs: Post, Respond, Update, Delete (open to renaming these but the idea is that 4 verbs are enough)
+* RecentChanges only requires/uses 4 verbs: Post, Respond, Update, Delete. (open to renaming these but the idea is that 4 verbs are enough)
 * Examples:
   * Sandeep Shetty posted Foobar. (new post)
   * Sandeep Shetty updated Foobar. (edited an existing post)
