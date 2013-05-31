@@ -36,7 +36,7 @@ Link: <http://sandeep.shetty.in/recentchanges-endpoint>; rel="http://example.com
 ...
 ```
 
-* RecentChanges only requires/uses 4 verbs: Post, Respond, Update, Delete. (open to renaming these but the idea is that 4 verbs are enough)
+* RecentChanges only requires/uses 4 verbs: Post, Update, Respond, Delete (PURD). (open to renaming these but the idea is that 4 verbs are enough)
 * Examples:
  * New Post: <pre>[Sandeep Shetty](http://sandeep.shetty.in/) posted [Foobar](http://example.com/foobar)</pre>
  * Edit an existing post: 
