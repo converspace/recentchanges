@@ -42,8 +42,8 @@ Link: <http://sandeep.shetty.in/recentchanges-endpoint>; rel="http://example.com
  * Edit an existing post: 
 <pre>[Sandeep Shetty](http://sandeep.shetty.in/) updated [Foobar](http://example.com/foobar) with http://example.com/diff/v1-vs-v2 </pre>
  * Comment on a post: <pre>[Barnaby Walters](http://waterpigs.co.uk/) responded to [Foobar](http://example.com/foobar) with "[Hello world! ...](http://example.com/comment/22)"</pre>
- * Response to a specific comment: <pre>[Barnaby Walters](http://waterpigs.co.uk/) responded to [Hello world! ...](http://example.com/comment/22) with "[Hello world again! ...](http://example.com/comment/222)"</pre>
- * `likes` are just a [canned response](http://sandeep.shetty.in/2012/10/facebooks-like-is-just-canned-response.html) that could be represented by something like emoji: <pre>[Barnaby Walters](http://waterpigs.co.uk/) responded to [Foobar](http://example.com/foobar) with "[:like:](http://example.com/comment/2222)"</pre>
+ * Response to a specific comment: <pre>[Barnaby Walters](http://waterpigs.co.uk/) responded to "[Hello world! ...](http://example.com/comment/22)" with "[Hello world again! ...](http://example.com/comment/222)"</pre>
+ * `likes` are just a [canned response](http://sandeep.shetty.in/2012/10/facebooks-like-is-just-canned-response.html) that could be represented by something like emoji: <pre>[Sandeep Shetty](http://sandeep.shetty.in/) responded to "[Hello world again! ...](http://example.com/comment/222)" with "[:like:](http://example.com/comment/2222)"</pre>
  * Delete post: <pre>[Sandeep Shetty](http://sandeep.shetty.in/) deleted [Foobar](http://example.com/foobar)</pre>
 
 
