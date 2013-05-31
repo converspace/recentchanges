@@ -15,6 +15,6 @@ Original post: http://sandeep.shetty.in/2013/05/recentchanges-alternative-to.htm
   * Sandeep Shetty deleted Foobar. (deleted a post)
 
 ### References
-* Mandaotry link to xkcd: http://xkcd.com/927/
+* Mandatory link to xkcd: http://xkcd.com/927/
 * http://c2.com/cgi/wiki?RecentChanges
 * http://c2.com/cgi/wiki?RecentChangesDiscussion
