@@ -48,6 +48,7 @@ Link: <http://sandeep.shetty.in/recentchanges-endpoint>; rel="http://example.com
 
 
 ## TODO
+* Instead of a separate RecentChanges endpoint, it could just be microformats on the same page.
 * microformats for marking up RecentChanges.
 * JSON format for RecentChanges (could just go with the microformats and skip this - DRY)
 
